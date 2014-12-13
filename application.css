@@ -108,7 +108,7 @@ padding: 10px;
 /* MIDDLE SECTION OF PAGE */
 
 .purple-background-holder{
-  background: url(images/purple-mid-background.png) center;
+  background: url(images/purple-mid-background.png);
   margin: 2.5% 0px;
   position: absolute;
   max-height: 80%;
