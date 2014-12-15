@@ -107,16 +107,19 @@ padding: 10px;
 
 /* MIDDLE SECTION OF PAGE */
 
-.purple-background-holder{
-  background: url(images/purple-mid-background.png);
-  margin: 2.5% 0px;
-  position: absolute;
-  max-height: 80%;
-  z-index: 0;
-  height: 75% !important;
-  width: 100%;
+.middle-outer-wrapper{
+  background: url(images/purple-mid-background.png) center;
+  background: url(images/purple-mid-background.png) center;
+  background-size: 90% 100%;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  margin: 35px auto;
 }
 
+.middle{
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
 .frame-block {
   border: 8px solid #fff;
   box-shadow: 2px 3px 9px #b9babb;
@@ -127,6 +130,8 @@ padding: 10px;
   border-radius: 22px;
   max-height: 410px;
   -webkit-border-radius: 22px;
+  margin-top: -30px;
+  margin-bottom: -30px;
 }
 
 .banner-block{
@@ -152,6 +157,12 @@ padding: 10px;
   position: relative;
 }
 .flexslider ul li span.shadow {
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
+
+.middle .shadow {
   display: block;
   position: relative;
   overflow: hidden;
